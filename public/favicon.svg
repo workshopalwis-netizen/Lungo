@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="24" fill="#2B1B16"/>
+  <rect x="18" y="18" width="84" height="84" rx="6" fill="none" stroke="#B9824B" stroke-width="4"/>
+  <circle cx="30" cy="30" r="4.5" fill="#B9824B"/>
+  <circle cx="90" cy="30" r="4.5" fill="#B9824B"/>
+  <circle cx="30" cy="90" r="4.5" fill="#B9824B"/>
+  <circle cx="90" cy="90" r="4.5" fill="#B9824B"/>
+  <circle cx="60" cy="60" r="32" fill="none" stroke="#B9824B" stroke-width="3.5"/>
+  <!-- Central rosette medallion -->
+  <path d="M 60 36 C 65 48 72 55 84 60 C 72 65 65 72 60 84 C 55 72 48 65 36 60 C 48 55 55 48 60 36 Z" fill="#B9824B"/>
+  <circle cx="60" cy="60" r="4" fill="#2B1B16"/>
+</svg>
