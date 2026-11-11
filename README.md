@@ -4,7 +4,7 @@ A modern, responsive, luxury coffee brand website created for **LUNGO Sri Lanka*
 
 ---
 
-## 🌟 Brand Identity & Highlights
+## 🌟 Brand Information & Contact Details
 
 - **Brand Name**: LUNGO
 - **Market / Location**: Sri Lanka 🇱🇰
@@ -107,23 +107,63 @@ A modern, responsive, luxury coffee brand website created for **LUNGO Sri Lanka*
 
 ---
 
-## 🚀 Running the Project
+## 📦 How to Push this Project to GitHub
 
-Start the development server:
-```bash
-./start.sh
-```
-or
-```bash
-npm run dev
-```
+1. **Initialize Git & Add Files**:
+   ```bash
+   git init -b main
+   git add .
+   git commit -m "feat: initial commit for LUNGO Sri Lanka website"
+   ```
 
-Build for production:
-```bash
-npm run build
-```
+2. **Link to your GitHub Repository**:
+   Create a new repository on [GitHub](https://github.com/new) (e.g., `lungo-sri-lanka` or `Lungo`), then run:
+   ```bash
+   git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPOSITORY>.git
+   git branch -M main
+   git push -u origin main
+   ```
 
-Preview production build:
-```bash
-npm run preview
-```
+---
+
+## 🌐 Deploying to GitHub Pages (Live Free Hosting)
+
+This repository includes **two** ways to deploy to GitHub Pages:
+
+### Method A: Automated GitHub Actions (Recommended)
+1. In your GitHub repository, go to **Settings** > **Pages**.
+2. Under **Build and deployment** > **Source**, choose **GitHub Actions**.
+3. Push any commit to the `main` branch. The included workflow (`.github/workflows/deploy.yml`) will automatically build and publish your site!
+
+### Method B: Deploy from the `/docs` Folder (Instant)
+1. In your GitHub repository, go to **Settings** > **Pages**.
+2. Under **Build and deployment** > **Source**, choose **Deploy from a branch**.
+3. Select branch: `main` and folder: `/docs`.
+4. Click **Save**. Your site will be live within 1–2 minutes!
+
+---
+
+## 🚀 Running Locally
+
+1. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+   Or on macOS using the included script:
+   ```bash
+   ./start.sh
+   ```
+
+2. **Build for production**:
+   ```bash
+   npm run build
+   ```
+   *This builds into `dist/` and automatically updates the `docs/` folder for GitHub Pages, as well as `Double-Click-To-Open-Offline.html`.*
+
+3. **Preview production build locally**:
+   ```bash
+   npm run preview
+   ```
+
+4. **Direct Offline Viewing (No Server Required)**:
+   - Double-click `Double-Click-To-Open-Offline.html` in your file manager to view the full website directly in any browser without needing terminal or Node.js.
